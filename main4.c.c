@@ -8,6 +8,8 @@ int  main(){
 
     int decks;
 
+    char s [] = "shatner";
+
     puts("Hello World\n");
 
     puts ("Enter a number of decks");
@@ -23,6 +25,8 @@ int  main(){
     }
 
     printf("There are %i cards\n", (decks * 52));
+
+    printf( "%s",   s[7]);
 
 
     return 0;
